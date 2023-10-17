@@ -4,6 +4,7 @@ import "./App.css";
 
 function App() {
   const { login, status, isLoading, error} = useLogin();
+  console.log("status", status);
   
   async function handleLogin() {
     try {
