@@ -3,14 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { FacebookProvider } from "react-facebook";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <FacebookProvider appId="669505088471550">
-      <App />
-    </FacebookProvider>
+    <App />
   </React.StrictMode>
 );
 
